@@ -1,0 +1,27 @@
+.box {
+    /* display: inline ; */
+    width: 100px;
+    height: 100px;
+    outline: solid 2px red;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+header ul {
+list-style: none;
+}
+
+header ul {
+display: flex;
+gap:1rem;
+}
